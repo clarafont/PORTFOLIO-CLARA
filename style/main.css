@@ -1,0 +1,176 @@
+header {
+  color: #004cc6;
+  padding: 2em;
+  position: fixed;
+  overflow: visible;
+  top: 0;
+  left: 0;
+  right: 0;
+  max-height: 20vh;
+  background-color: #fff;
+  z-index: 5;
+text-align: center;
+}
+
+
+
+/*header {
+max-height: 20vh;
+background-color: #fff;
+position: fixed;
+text-align: center;
+width: 100%;
+top: 0;
+left: 0;
+right: 0;
+padding: 20px;
+z-index: 5;
+margin: 0 auto;
+}
+*/
+.logo_header {
+padding-bottom: 10px;
+color: #000000;
+}
+
+.logo_header img {
+width: 70px;
+padding: 10px;
+}
+
+
+
+
+.selection a {
+  padding: 30px;
+}
+
+
+
+.menu2 a{
+  position: absolute;
+  display: block;
+  right:0;
+top: 0;
+margin: 20px;
+padding: 25px;
+background-image: url("images/menu-bleu-03.svg");
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+
+
+.menu2 a:hover{
+  background-image: url("images/menu-jaune-03.svg");
+
+}
+
+
+.menu {
+  right:0;
+top: 0;
+margin: 70px;
+padding: 10px;
+}
+
+/*footer*/
+.pied {
+max-height: 10vh;
+  background-color: #fff;
+  margin: 0;
+  padding: 10px;
+bottom: 0;
+left: 0;
+right: 0;
+position: relative;
+text-align: left;
+justify-content: center;
+
+}
+
+.pied a{
+
+  background-image: url("images/fleche-haut-02.svg");
+background-repeat: no-repeat;
+background-size: contain;
+  display: block;
+padding: 20px;
+background-position: center;
+justify-content: center;
+
+}
+
+.pied a:hover {
+  background-image: url("images/fleche-haut-hover-02.svg");
+
+}
+
+.pied p{
+  font-size: 0.6em;
+
+}
+
+@media (max-width: 1150px) {
+
+  header {
+    color: #000000;
+    padding: 15px;
+    position: fixed;
+    overflow: visible;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-height: 25vh;
+    background-color: #fff;
+    z-index: 5;
+  text-align: center;
+  }
+
+  .logo_header {
+  }
+
+  .logo_header img {
+  width: 70px;
+
+  }
+
+
+  body {
+    background-color: #fff;
+  }
+
+  .selection a {
+    padding: 10px;
+    font-size: 70%;
+    display: inline-flex;
+  }
+
+
+
+  .menu2 {
+    position: absolute;
+    display:flex;
+    right:0;
+    margin-right: 15px;
+  top: 0;
+  padding: 15px;
+
+  }
+
+  .menu {
+    right:0;
+  top: 0;
+  margin: 70px;
+  padding: 10px;
+  }
+
+  footer {
+  max-height: 5vh;
+    background-color: #fff;
+    padding: 10px;
+    margin: 0;
+
+  }
+}
