@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Clara</title>
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="author" content="Codrops" />
+
+		<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+		<link rel="manifest" href="favicons/manifest.json">
+		<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="theme-color" content="#ffffff">
+
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,100i,300,300i,400,400i,600,600i,700,700i|Quicksand:300,400,500,700" rel="stylesheet">
+
+		<link rel="stylesheet" type="text/css" href="css3/demo2.css" />
+		<link rel="stylesheet" type="text/css" href="css3/mirror.css" />
+
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/style-ama.css" />
+		<link rel="stylesheet" type="text/css" href="pater/pater.css" />
+<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+
+<link rel="stylesheet" href="style/typo.css"/>
+		<script>document.documentElement.className = 'js';</script>
+	</head>
+	<body class="demo-3 loading">
+
+		<main>
+
+			<section class="content content--full">
+
+				<div class="slideshow">
+					<div class="slide">
+						<div class="mirror" data-tilt>
+							<div class="mirror__side mirror__side--one">
+								<img class="mirror__img" src="img/ange.png" alt="Some image" />
+							</div>
+							<div class="mirror__side mirror__side--two">
+								<img class="mirror__img" src="img/ange.png" alt="Some image" />
+							</div>
+						</div>
+
+					</div>
+					<div class="logo">
+							<img src="img/clara-04.svg" alt="">
+							<h4>Design Graphique / 1re année de Mastère</h4>
+							<h5>ECV Bordeaux</h5>
+					</div>
+					<nav class="slideshow__nav slideshow__nav--inline">
+						<a href="#menu" class="btn btn--nav">Voir</a>
+					</nav>
+				</div><!-- /slideshow -->
+			</section>
+
+			<section id="menu">
+				<section class="content">
+						<nav class="menu menu--ama">
+							<a class="menu__item" href="presentation.html">
+								<span class="menu__item-name">Présentation</span>
+							</a>
+							<a class="menu__item" href="portfolio.html">
+								<span class="menu__item-name">Portfolio</span>
+							</a>
+							<a class="menu__item" href="contact.html">
+								<span class="menu__item-name">Contact</span>
+							</a>
+						</nav>
+					</section>
+			</section>
+		</main>
+		<script src="js3/imagesloaded.pkgd.min.js"></script>
+		<script src="js3/anime.min.js"></script>
+		<script src="js3/mirrorFx.js"></script>
+		<script src="js3/slideshow.js"></script>
+
+		<script src="js/charming.min.js"></script>
+		<script src="js/anime.min.js"></script>
+		<script src="js/demo.js"></script>
+		<script src="js/demo-ama.js"></script>
+		<script>
+		(function() {
+
+			function init() {
+				new Slideshow(document.querySelector('.slideshow'));
+			}
+
+			// Fake loading time..
+			var startTime = new Date().getTime();
+			imagesLoaded(document.querySelector('main'), function() {
+				var elapsed = new Date().getTime() - startTime,
+					initFn = function() {
+						document.body.classList.remove('loading');
+						setTimeout(init, 50);
+					};
+
+				if( elapsed > 2000) {
+					initFn();
+				}
+				else {
+					setTimeout(initFn, 1000);
+				}
+			});
+
+		})();
+		</script>
+	</body>
+</html>
