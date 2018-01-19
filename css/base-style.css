@@ -1,0 +1,519 @@
+/* Set all parents to full height */
+html, body,
+.container,
+.cbp-fbscroller,
+.cbp-fbscroller section {
+	height: 95%;
+margin: 0;
+}
+
+
+/* background-attachment does the trick */
+.cbp-fbscroller section {
+	position: relative;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.no-touch .cbp-fbscroller section {
+	background-attachment: fixed;
+}
+
+
+
+header {
+max-height: 20vh;
+background-color: #fff;
+text-align: center;
+top: 0;
+left: 0;
+right: 0;
+padding: 2em;
+z-index: 5;
+color: #000000;
+}
+
+.logo_header {
+
+}
+
+.logo_header img {
+width: 70px;
+}
+
+.menu2 a{
+  position: absolute;
+  display: block;
+  right:0;
+top: 0;
+margin: 20px;
+padding: 25px;
+background-image: url("images/menu-bleu-03.svg");
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+z-index: 6;
+}
+
+
+
+.menu2 a:hover{
+  background-image: url("images/menu-jaune-03.svg");
+
+}
+
+
+#fbsection1 {
+	background-color: #28338c;
+	margin: 0 auto;
+	position: relative;
+
+}
+
+
+.paragraphe {
+	position: absolute;
+	  top: 50%;
+	  transform: translateY(-50%);
+		padding: 450px;
+	text-align: center;
+	justify-content: center;
+	display: block;
+margin: 0;
+color: #fff;
+	width: 100%;
+
+}
+
+.paragraphe p {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-self: center;
+
+}
+
+
+#fbsection2 {
+	background-image: url(../images/base/logo.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+background-color: #fff;
+height: 90vh;
+}
+
+#fbsection3 {
+	background-image: url(../images/base/charte.jpg);
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-color: #fff;
+	height: 90vh;
+	background-position: center;
+
+	position: relative;
+}
+
+
+
+#fbsection4 {
+	background-image: url(../images/base/cdv.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+background-color: #b0b0b0;
+min-height: 90vh;
+}
+
+.paragraphe3 {
+	position: absolute;
+	display: block;
+color: #000000;
+text-align: left;
+right: 0;
+padding: 70px;
+margin: 0 auto;
+top: 50%;
+transform: translateY(-50%);
+width: 50%;
+
+}
+
+.paragraphe3 p {
+	display: flex;
+
+
+}
+
+#fbsection5 {
+	background-image: url(../images/base/papier.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+background-color: #52bbb4;
+min-height: 90vh;
+
+}
+
+#fbsection6 {
+	background-color: #28338c;
+	margin: 0 auto;
+	position: relative;
+
+}
+
+.paragraphe4 {
+	position: absolute;
+	  top: 50%;
+	  transform: translateY(-50%);
+		padding: 450px;
+	text-align: center;
+	justify-content: center;
+	display: block;
+margin: 0;
+color: #fff;
+	width: 100%;
+
+}
+
+.paragraphe4 p {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-self: center;
+
+}
+#fbsection7 {
+	background-image: url(../images/base/programme.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+background-color: #52bbb4;
+	min-height: 95vh;
+}
+
+#fbsection8 {
+	background-image: url(../images/base/affiche.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+background-color: #fff;
+	min-height: 95vh;
+}
+#fbsection9 {
+	background-image: url(../images/base/market.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+background-color: #fff;
+	min-height: 95vh;
+}
+#fbsection10 {
+	background-image: url(../images/base/carte.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right;
+background-color: #e1d0a8;
+	min-height: 95vh;
+}
+
+#fbsection11 {
+	background-image: url(../images/base/picto.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+background-color: #fff;
+	min-height: 95vh;
+}
+
+#fbsection12 {
+	background-image: url(../images/base/navette.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+background-color: #b4b4b4;
+	min-height: 95vh;
+}
+
+#fbsection13{
+	background-image: url(../images/base/panneau.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+background-color: #fff;
+	min-height: 95vh;
+}
+
+#fbsection14 {
+	background-image: url(../images/base/facade.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+background-color: #b4b4b4;
+	min-height: 95vh;
+}
+
+#fbsection15 {
+	background-image: url(../images/base/signaletique.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+background-color: #fff;
+	min-height: 95vh;
+}
+
+#fbsection16 {
+	background-image: url(../images/base/mur.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+background-color: #fff;
+	min-height: 95vh;
+}
+
+
+#fbsection17{
+	max-height: 10vh;
+
+}
+
+
+	/*footer*/
+	.pied {
+	max-height: 10vh;
+	  background-color: #fff;
+	  margin: 0;
+	  padding: 10px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: relative;
+	text-align: left;
+	justify-content: center;
+
+	}
+
+	.pied a{
+
+	  background-image: url("images/fleche-haut-02.svg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	  display: block;
+	padding: 20px;
+	background-position: center;
+	justify-content: center;
+
+	}
+
+	.pied a:hover {
+	  background-image: url("images/fleche-haut-hover-02.svg");
+
+	}
+
+	.pied p{
+	  font-size: 0.6em;
+
+	}
+@media (max-width: 1150px) {
+
+	.paragraphe {
+		position: absolute;
+		  top: 50%;
+		  transform: translateY(-50%);
+			padding: 40px;
+		text-align: center;
+		justify-content: center;
+		display: block;
+	margin: 0;
+	color: #fff;
+		width: 100%;
+
+	}
+
+	.paragraphe p {
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		align-self: center;
+
+	}
+
+	.paragraphe3 {
+		position: absolute;
+		display: block;
+	color: #000000;
+	text-align: left;
+	padding: 40px;
+	margin: 0 auto;
+	top: 50%;
+	transform: translateY(-50%);
+width: 100%;
+	}
+
+	.paragraphe3 p {
+		display: flex;
+
+
+	}
+	.paragraphe4 {
+		position: absolute;
+		  top: 50%;
+		  transform: translateY(-50%);
+			padding: 40px;
+		text-align: center;
+		justify-content: center;
+		display: block;
+	margin: 0;
+	color: #fff;
+		width: 100%;
+
+	}
+
+	.paragraphe4 p {
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		align-self: center;
+
+	}
+	#fbsection2 {
+		background-image: url(../images/base/logo.jpg);
+		background-size: 400%;
+		background-repeat: no-repeat;
+		background-position: center;
+	background-color: #fff;
+	height: 90vh;
+	}
+
+	#fbsection3 {
+		background-image: url(../images/base/charte.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-color: #fff;
+		height: 90vh;
+		background-position: center;
+
+		position: relative;
+	}
+
+
+
+	#fbsection4 {
+		background-image: url(../images/base/cdv.jpg);
+		background-size: 130%;
+		background-repeat: no-repeat;
+		background-position: center;
+	background-color: #b0b0b0;
+	min-height: 90vh;
+	}
+
+
+
+	#fbsection5 {
+		background-image: url(../images/base/papier.jpg);
+		background-size: 200%;
+		background-repeat: no-repeat;
+		background-position: center;
+	background-color: #52bbb4;
+	min-height: 90vh;
+
+	}
+
+	#fbsection6 {
+		background-color: #28338c;
+		margin: 0 auto;
+		position: relative;
+
+	}
+
+
+	#fbsection7 {
+		background-image: url(../images/base/programme.jpg);
+		background-size: 120%;
+		background-repeat: no-repeat;
+		background-position: center;
+	background-color: #52bbb4;
+		min-height: 95vh;
+	}
+
+	#fbsection8 {
+		background-image: url(../images/base/affiche-mobile.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	background-color: #fff;
+		min-height: 95vh;
+	}
+	#fbsection9 {
+		background-image: url(../images/base/market.jpg);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	background-color: #fff;
+		min-height: 95vh;
+	}
+	#fbsection10 {
+		background-image: url(../images/base/carte.jpg);
+		background-size: 170%;
+		background-repeat: no-repeat;
+		background-position: right;
+	background-color: #c6c6c6;
+		min-height: 95vh;
+	}
+
+	#fbsection11 {
+		background-image: url(../images/base/picto-mobile.jpg);
+		background-size: 130%;
+		background-repeat: no-repeat;
+		background-position: center;
+	background-color: #fff;
+		min-height: 95vh;
+	}
+
+	#fbsection12 {
+		background-image: url(../images/base/navette.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: right;
+	background-color: #b4b4b4;
+		min-height: 95vh;
+	}
+
+	#fbsection13{
+		background-image: url(../images/base/panneau.jpg);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	background-color: #fff;
+		min-height: 95vh;
+	}
+
+	#fbsection14 {
+		background-image: url(../images/base/facade.jpg);
+		background-size: 180%;
+		background-repeat: no-repeat;
+		background-position: center;
+	background-color: #fff;
+		min-height: 95vh;
+	}
+
+	#fbsection15 {
+		background-image: url(../images/base/signaletique.jpg);
+		background-size: 130%;
+		background-repeat: no-repeat;
+		background-position: center;
+	background-color: #fff;
+		min-height: 95vh;
+	}
+
+	#fbsection16 {
+		background-image: url(../images/base/mur.jpg);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	background-color: #fff;
+		min-height: 95vh;
+	}
+
+}

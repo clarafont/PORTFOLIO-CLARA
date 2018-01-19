@@ -1,0 +1,444 @@
+body {
+
+}
+
+.selection a {
+  color: #1455bc;
+  text-decoration: none;
+}
+
+.selection a:hover {
+  color: #ec6d80;
+}
+
+.selection a:active {
+  color: #ff9ec8;
+}
+
+.selection {
+  padding-top: 10px;
+}
+
+.accueil-portfolio {
+  padding: 50px;
+  margin-top: 150px;
+}
+
+.contenant {
+        display: grid;
+    grid-gap: 40px;
+      grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 300px 300px 300px;
+        background-color: #fff;
+        color: #444;
+max-width: 980px;
+        margin: 0 auto;
+
+    }
+
+    .contenant2 {
+            display: grid;
+        grid-gap: 40px;
+          grid-template-columns: 300px 300px 300px;
+            grid-template-rows: 300px 300px 300px;
+            background-color: #fff;
+            color: #444;
+    max-width: 980px;
+            margin: 0 auto;
+        }
+
+    .contenantfin {
+            display: grid;
+        grid-gap: 40px;
+          grid-template-columns: 300px 300px 300px;
+            grid-template-rows: 300px 300px;
+            background-color: #fff;
+            color: #444;
+    max-width: 980px;
+            margin: 0 auto;
+        }
+
+    .box {
+        background-color: #fff;
+        position: relative;
+        font-size: 120%;
+    }
+
+
+
+    .contenant a {
+      text-align: center;
+      display: block;
+      padding: 50px;
+      margin: 0 auto;
+      position: absolute;
+      top:0;
+      bottom: 0;
+      left:0;
+      right:0;
+      transition-property: background;
+      transition-duration: 0.8s;
+        color: rgba(20, 85, 188, 0);
+        text-decoration: none;
+
+    }
+
+    .contenant a:hover {
+      background: #1455bc;
+      color: rgba(255, 255, 255, 1);
+
+    }
+
+    .contenant a:active {
+  transition-duration: 0s;
+      color: rgb(20, 85, 188);
+      background: #ec6d80;
+
+    }
+
+    .contenant2 a {
+      text-align: center;
+      display: block;
+      padding: 50px;
+      margin: 0 auto;
+      position: absolute;
+      top:0;
+      bottom: 0;
+      left:0;
+      right:0;
+      transition-property: background;
+      transition-duration: 0.8s;
+        color: rgba(201, 126, 195, 0);
+        text-decoration: none;
+
+    }
+
+    .contenant2 a:hover {
+      background: #1455bc;
+      color: rgba(255, 255, 255, 1);
+
+    }
+
+    .contenant2 a:active {
+      transition-duration: 0s;
+          color: rgb(20, 85, 188);
+          background: #ec6d80;
+
+    }
+
+    .contenantfin a {
+      text-align: center;
+      display: block;
+      padding: 50px;
+      margin: 0 auto;
+      position: absolute;
+      top:0;
+      bottom: 0;
+      left:0;
+      right:0;
+      transition-property: background;
+      transition-duration: 0.8s;
+        color: rgba(201, 126, 195, 0);
+        text-decoration: none;
+
+    }
+
+    .contenantfin a:hover {
+      background: #1455bc;
+      color: rgba(255, 255, 255, 1);
+
+    }
+
+    .contenantfin a:active {
+      transition-duration: 0s;
+          color: rgb(20, 85, 188);
+          background: #ec6d80;
+
+
+    }
+
+#identité {
+  padding: 20px;
+}
+
+#illustration {
+  padding: 20px;
+}
+
+#communication {
+  padding: 20px;
+}
+  #identité .a {
+    background-image: url("images/triomemo_case.jpg");
+    background-repeat: no-repeat;;
+    background-size: cover;
+    background-position: right;
+        grid-column: 1;
+        grid-row: 1;
+    }
+#identité  .b {
+  background-image: url("images/cuve_case.jpg");
+  background-repeat: no-repeat;;
+  background-size: cover;
+        grid-column: 2 /span 2 ;
+        grid-row: 1;
+    }
+#identité .c {
+  background-image: url("images/bordeaux-rose_case.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+        grid-column: 1;
+        grid-row: 2 /span 2;
+    }
+  #identité .d {
+
+    background-image: url("images/foodtruck_case.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+        grid-column: 2 ;
+        grid-row: 2;
+    }
+
+    #identité  .e {
+
+          background-image: url("images/lapg_case.jpg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+      grid-column: 3;
+      grid-row: 2 ;
+    }
+
+      #identité .f {
+
+            background-image: url("images/tropbeau_case.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+      grid-column: 2;
+      grid-row: 3;
+    }
+
+    #identité  .g {
+
+          background-image: url("images/vinyl_case.jpg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+      grid-column: 3;
+      grid-row: 3;
+    }
+
+#illustration .a {
+  background-image: url("images/desperado_case.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+      grid-column: 1 /span 2;
+      grid-row: 1 /span 2;
+    }
+
+#illustration .b {
+  background-image: url("images/despe2_case.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+        grid-column: 3;
+        grid-row: 1 /span 2;
+      }
+
+#illustration .c {
+  background-image: url("images/apacom_case.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+          grid-column: 1;
+          grid-row: 3;
+        }
+#illustration .d {
+  background-image: url("images/serigraphie_case.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+            grid-column: 2 / span 2;
+            grid-row: 3;
+          }
+
+#communication .a {
+  background-image: url("images/heineken_case.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column: 1 /span 2;
+  grid-row: 1;
+}
+
+#communication .b {
+  background-image: url("images/base_case.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column: 3;
+  grid-row: 1;
+}
+
+#communication .c {
+  background-image: url("images/hotel_case.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+#communication .d {
+  grid-column: 2 / span 2;
+  grid-row: 2;
+}
+
+
+@media (max-width: 1150px) {
+
+.contenant a {
+  padding: 18px;
+}
+  .accueil-portfolio {
+    padding: 10px;
+    margin-top: 180px;
+  }
+
+  .contenant {
+          display: grid;
+      grid-gap: 20px;
+        grid-template-columns: 152px 152px;
+          grid-template-rows: 152px 152px 152px 152px 152px;
+          background-color: #fff;
+          color: #444;
+  max-width: 980px;
+          margin: 0 auto;
+      }
+
+      .contenant2 {
+              display: grid;
+          grid-gap: 20px;
+            grid-template-columns: 152px 152px;
+              grid-template-rows: 152px 152px 152px 152px;
+              background-color: #fff;
+              color: #444;
+      max-width: 980px;
+              margin: 0 auto;
+          }
+
+      .contenantfin {
+              display: grid;
+          grid-gap: 20px;
+            grid-template-columns: 152px 152px 152px;
+              grid-template-rows: 152px 152px 152px;
+              background-color: #fff;
+              color: #444;
+      max-width: 980px;
+              margin: 0 auto;
+          }
+
+      .box {
+          background-color: #444;
+          color: #fff;
+          font-size: 90%;
+
+      }
+
+      .contenant2 a {
+        padding: 18px;
+      }
+      .contenantfin a {
+        padding: 18px;
+      }
+  #identité {
+    padding: 20px;
+  }
+
+  #illustration {
+    padding: 20px;
+  }
+
+  #communication {
+    padding: 20px;
+  }
+
+
+#identité .a {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+#identité .b {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+
+#identité .c {
+  grid-column: 2;
+  grid-row: 2 / span 2;
+}
+
+#identité .d {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+#identité .e {
+  grid-column: 1;
+  grid-row: 4;
+}
+
+#identité .f {
+  grid-column: 2;
+  grid-row: 4;
+}
+
+#identité .g {
+  grid-column: 1 / span 2;
+  grid-row: 5 ;
+}
+
+#illustration .a {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+
+#illustration .b {
+  grid-column: 1;
+  grid-row: 3 / span 2;
+}
+
+#illustration .c {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+#illustration .d {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+
+#communication .a{
+  grid-column: 1 / span 2;
+  grid-row: 1 ;
+}
+
+#communication .b{
+  grid-column: 1;
+  grid-row: 2;
+}
+
+#communication .c{
+  grid-column: 2;
+  grid-row: 2;
+}
+
+#communication .d{
+  grid-column: 1 / span 2;
+  grid-row: 3;
+}

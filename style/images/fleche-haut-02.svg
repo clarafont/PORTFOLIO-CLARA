@@ -1,0 +1,19 @@
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #1455bc;
+        stroke-miterlimit: 10;
+        stroke-width: 8px;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <title>fleche-haut</title>
+  <line class="cls-1" x1="100" y1="172.25" x2="100" y2="27.75"/>
+  <polyline class="cls-2" points="152.54 80.63 100 28.09 47.46 80.63"/>
+</svg>
